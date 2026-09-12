@@ -1,0 +1,11 @@
+{
+  "luau-lsp.completion.imports.suggestServices": false,
+  "luau-lsp.platform.type": "roblox",
+  "luau-lsp.sourcemap.enabled": false,
+  "luau-lsp.types.definitionFiles": [
+    "./types/global.d.luau"
+  ],
+  "luau-lsp.types.documentationFiles": [
+    "./types/documentation.d.json"
+  ]
+}

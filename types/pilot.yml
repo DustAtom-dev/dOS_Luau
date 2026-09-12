@@ -1,0 +1,132 @@
+base: roblox
+globals:
+  Beep:
+    args:
+    - required: false
+      type:
+        type: number
+  FileSystem:
+    type:
+      display: FileSystem
+  GetCPUTime:
+    args: []
+  GetPart:
+    args:
+    - type: '...'
+  GetPartFromPort:
+    args:
+    - type: '...'
+  GetParts:
+    args:
+    - type: '...'
+  GetPartsFromPort:
+    args:
+    - type: '...'
+  GetPort:
+    args:
+    - required: false
+      type:
+        type: number
+  GetPorts:
+    args:
+    - required: false
+      type:
+        type: number
+  JSONDecode:
+    args:
+    - type:
+        type: string
+  JSONEncode:
+    args:
+    - type:
+        type:
+          display: JSON
+  Microcontroller:
+    type:
+      display: Microcontroller
+  Network:
+    type:
+      display: Network
+  RawFileSystem:
+    type:
+      display: RawFileSystem
+  SandboxID:
+    type: string
+  SandboxRunID:
+    type: string
+  TriggerPort:
+    args:
+    - type:
+        type:
+          display: PortLike
+  logError:
+    args:
+    - type:
+        type: string
+    - required: false
+      type:
+        type: number
+  pilot:
+    claimThread:
+      args:
+      - type:
+          type:
+            display: thread
+    getCPUTime:
+      args: []
+    getRing:
+      args:
+      - required: false
+        type:
+          type:
+            display: thread
+    getThreadParent:
+      args:
+      - required: false
+        type:
+          type:
+            display: thread
+    getTimeout:
+      args:
+      - required: false
+        type:
+          type:
+            display: thread
+    hasRing:
+      args:
+      - type:
+          type: number
+      - required: false
+        type:
+          type:
+            display: thread
+    property: read-only
+    saveRing:
+      args:
+      - required: false
+        type:
+          type: number
+    setInterrupt:
+      args:
+      - type:
+          type: number
+      - type:
+          args: []
+    setRing:
+      args:
+      - type:
+          type: number
+      - required: false
+        type:
+          type:
+            display: thread
+    setTimeout:
+      args:
+      - required: false
+        type:
+          type: number
+      - required: false
+        type:
+          type:
+            display: thread
+name: pilot

@@ -1,0 +1,6 @@
+{
+  "aliases": {
+    "wos": "./types/modules"
+  },
+  "languageMode": "nonstrict"
+}

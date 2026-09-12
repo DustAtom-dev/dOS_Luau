@@ -1,0 +1,3 @@
+Not all assets are present here! And some of them are unused or replaced...
+
+TODO: Download here the rest and credit if they're 3rd party. Remove unused assets.
