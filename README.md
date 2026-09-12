@@ -38,4 +38,4 @@ Note: To open see the Microcontroller content, hold the "hammer" tool, click "Co
 
 **Click the Microcontroller once with no tools in your hand to start the code.**
 
-> If it does not work, **press *<F9>*** to open the Developer Console.
+> If it does not work, **press *F9*** to open the Developer Console.
