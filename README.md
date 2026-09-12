@@ -24,7 +24,7 @@ Do note that you'll need Disks for persistence, Speaker for sound, and other Tou
 - Download, install, and add darklua to your PATH. You can download a portable standalone EXE if available, and drag-n-drop it in the root of this project.
 - Run `build.cmd`
 
-### UNIX-like OSes
+#### UNIX-like OSes
 - Open a terminal in the project root
 - Run:
 ```bash
